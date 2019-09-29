@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ComponentClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
+import Hooks from './componentes/Hooks'
+// import ComponentClasse from './componentes/ComponenteClasse'
 
 // import Pai from './componentes/Pai'
 // import Primeiro from './componentes/MeuPrimeiroComponente'
@@ -19,7 +21,11 @@ ReactDOM.render(
     // <div><FamiliaZaniquelli /></div>
     <div>
 
-        <ComponentClasse valor="teste tiago" />
+        <Hooks />
+
+        {/* <Contador /> */}
+
+        {/* <ComponentClasse valor="teste tiago" /> */}
 
         {/* <Pai /> */}
 
