@@ -10,6 +10,7 @@ import thunk from 'redux-thunk'
 
 // import Routes from './main/routes'
 import reducers from './main/reducers'
+import Routes from './main/routes'
 
 // const devTools = window.__REDUX_DEVTOOLS_EXTENSION__ 
 //       && window.__REDUX_DEVTOOLS_EXTENSION__()
@@ -32,7 +33,8 @@ onde o retorno de tudo isso é a função reducers
 ReactDOM.render(
 
     <Provider store={store}>
-        <App />
+        {/* <App /> */}
+        <Routes />
     </Provider>
 
 , document.getElementById('app'))
